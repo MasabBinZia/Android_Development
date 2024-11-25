@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminDashboardActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/headingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admin Dashboard"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/btnAddStreetLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Street Light" />
+
+        <Button
+            android:id="@+id/btnViewStreetLights"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Street Lights"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnManageOperators"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Field Operators"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

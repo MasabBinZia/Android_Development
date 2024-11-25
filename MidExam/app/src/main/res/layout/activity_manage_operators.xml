@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageOperatorsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/headingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Operators"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="40sp" />
+        <EditText
+            android:id="@+id/etOperatorUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Operator Username" />
+
+        <EditText
+            android:id="@+id/etOperatorPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Operator Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnAddOperator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Operator"
+            android:layout_marginTop="16dp" />
+
+        <ListView
+            android:id="@+id/lvOperators"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

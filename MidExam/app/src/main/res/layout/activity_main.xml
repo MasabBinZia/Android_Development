@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/headingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Foxit"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="40sp" />
+        <TextView
+            android:id="@+id/headingTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="        Street Light Pole Controller
+"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btnAdminLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login as Admin" />
+
+        <Button
+            android:id="@+id/btnFieldOperatorLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login as Field Operator" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
